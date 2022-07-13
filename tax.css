@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Montserrat:wght@300&family=Open+Sans:ital@1&family=Permanent+Marker&family=Poppins:wght@300&family=Raleway:wght@300&family=Satisfy&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #2c3e50;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.calculate {
+    /* width: 460px;
+    height: 350px;
+    height:325px;
+    background-color: white;
+    padding: 10px; */
+    height: 240px;
+    background: #fff;
+    max-width: 410px;
+    border-radius: 7px;
+    padding: 22px 25px;
+    transition: height 0.3s ease;
+}
+
+.calculate.active {
+    height: 265px;
+}
+
+.calculate.activee {
+    height: 310px;
+}
+
+.calculate.activ {
+    height: 300px;
+}
+
+.height {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.weight {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.ip span {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.message {
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+
+.message.show {
+    display: contents;
+}
+
+.messag {
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+
+.messag.showw {
+    display: contents;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    outline: none;
+    border: 2px solid black;
+    margin-top: 8px;
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px;
+    font-size: 18px;
+    /* display: block; */
+}
+
+#calculate {
+    padding: 7px;
+    border-radius: 8px;
+    border: 2px solid blue;
+    background-color: blue;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.status {
+    margin-top: 17px;
+    font-size: 18px;
+    padding: 2px;
+    font-weight: bold;
+    display: none;
+}
+
+.acti {
+    display: contents;
+}
+
+.status.activv {
+    display: contents;
+}
